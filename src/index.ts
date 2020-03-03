@@ -1,3 +1,3 @@
 import { queryBuilder } from './graphql/GraphQLBuilder'
 
-console.log(queryBuilder('foo', { a: 'a', b: ''}, 'status, message'))
+console.log(JSON.stringify(queryBuilder('foo', { w: 'a', b: '', c: 3, d: { a: 'hello' }}, 'status, message')))
